@@ -1,0 +1,350 @@
+*{
+	padding: 0;
+	margin: 0; 
+	font-family:Arial ;
+}
+body{
+	position: relative;
+	height: 100vh;
+}
+/*TOP BAAR PROFILE SETTING APP NAME*/
+.topBar{
+  height: 60px;
+  width: 100%;
+  background-color:#1daa61;
+  z-index: 999;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 0.5px black;
+}
+.topBar h1{
+  color: white;
+}
+
+/*NAV BAAR CHAT STORY CALL*/
+.navButtons{
+  color: #1daa61;
+	background-color:white;
+	box-shadow: 0px 0px 5px 3px #0000002c;
+	height: 50px;
+	width: 270px;
+	position: absolute;
+	bottom: 50px;
+	left: 50%;
+	transform: translateX(-50%);
+	border-radius: 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+ padding: 0px 40px;
+ font-size: 25px;
+ position: absolute;
+ z-index: 999;
+}
+ .navButtons i:hover{
+   color: black;
+   text-decoration: underline;
+   text-underline-offset: 5px;
+ }
+ .navButtons i{
+   font-size:18px;
+ }
+
+/*CHAT SCREEN*/
+.popup1 .namebg{
+  height: 30px;
+  width:280px;
+  color: white;
+  background: #0000005a;
+  z-index: 100000%;
+}
+.namebg h2 {
+  margin-left: 10px;
+}
+.chatScreen{ 
+	  width: 100vw;
+	  height: 92%;
+	  background-color: white;
+	  position: absolute;
+	  bottom: 0;
+	  white-space: nowrap;
+	  overflow-y:auto;
+  
+}
+	 .chatScreen ul li img{
+	   width: 50px;
+	   border-radius: 50%;
+	   margin: 0 10px;
+	 }
+	 .chatScreen ul li{
+	   height: 75px;
+	   display: flex;
+	   align-items: center;
+	   position: relative;
+	   }
+#chattime{
+	     font-size: 13px;
+	     color: grey;
+	     position: absolute;
+	     right: 20px;
+	     top: 36%;
+	     transform: translateY(-50%);
+	   }
+	  
+	   .chatName h3{
+	     margin-bottom: 6px;
+	     font-weight: 500;
+	   }
+	   .chatName #msg{
+	     color: grey;
+	   }
+	   .popup{
+	     backdrop-filter: blur(3px);
+	     background-color: #ffffff5c;
+	     height: 250%;
+	     width: 100%;
+	     position: fixed;
+	     top: 0;
+	     left: 0;
+	     display: none;
+	     z-index: 1000;
+	     
+	   }
+	   .popup1{
+	     height: 280px;
+	     width: 280px;
+	     background-color: darkgrey;
+	     margin-top: 55px;
+	     margin-left: 57px;
+	     background-size: cover;
+	     background-position: center;
+	     position: fixed;
+	     border: solid 2px black;
+	     
+	   }
+.nm2{
+	height: 50px;
+	width: 380px;
+	z-index: 999;
+	position: absolute;
+	bottom: 130px;
+	left: 48%;
+	transform: translateX(-50%);
+   display: flex;
+   justify-content: flex-end;
+	     
+	   }
+	   .nm2 #msgt{
+		height: 100%;
+		width: 60px;
+		background-color: #1DAA61;
+		box-shadow: -2px 2px 10px 0px #0000003c;
+		border-radius:15px;
+		color: black;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	  
+	   }
+	      /*storyScreen*/
+	   
+.storyScreen{
+	 width: 100vw;
+	 height: 92%;
+	 background-color:white;
+	 position: absolute;
+	 bottom: 0;
+	 display: none;
+  }
+  .storyScreen h4{
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .storyScreen h4 i{
+    margin-right: 10px;
+  }
+  .storyScreen ul li img{
+     width: 50px;
+	   border-radius: 50%;
+	   margin: 0 10px;
+	   
+  }
+   .storyScreen .chatName h3{
+	     margin-bottom: 6px;
+	     font-weight: 500;
+	   }
+	   .storyScreen .chatName #msg{
+	     color: grey;
+	   }
+	   
+	 .storyScreen ul li{
+	   height: 75px;
+	   display: flex;
+	   align-items: center;
+	   position: relative;
+	   }
+	   ul li i{
+	     color: #25d266;
+	     position: absolute;
+	     bottom: 12px;
+	     left: 43px;
+	     font-size: 20px;
+	     background-color: white;
+	     border-radius: 50%;
+	   }
+	   .storyScreen .brd{
+	     height: 60px;
+	     width: 60px;
+	    border-radius: 50%;
+	    margin-left: 10px;
+	    margin-right: 10px;
+      background:
+     	radial-gradient(rgba(0,0,0,6.15) 59%, transparent 0), 
+     	radial-gradient(white 63%, transparent 0),
+      linear-gradient(to top right, #1DAA61 , #1DAA61);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+	   }
+	   .strtag{
+	     color: grey;
+	     margin-left: 15px;
+	   }
+	   /*str2*/
+.storyScreen  li img{
+     width: 50px;
+	   border-radius: 50%;
+	   margin: 0 10px;
+	   
+  }
+   
+	   .storyScreen .chatName #msg{
+	     color: grey;
+	     margin-bottom: 6px;;
+	   }
+	   
+	 .storyScreen  li{
+	   height: 75px;
+	   display: flex;
+	   align-items: center;
+	   position: relative;
+	   }
+ .nm1{
+	height: 50px;
+	width: 380px;
+	z-index: 999;
+	position: absolute;
+	bottom: 130px;
+	left: 48%;
+	transform: translateX(-50%);
+   display: flex;
+   justify-content: flex-end;
+	     
+	   }
+	   .nm1 #strt{
+		height: 100%;
+		width: 60px;
+		background-color: #1DAA61;
+		box-shadow: -2px 2px 10px 0px #0000003c;
+		border-radius:15px;
+		color: black;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	   }
+	   
+	   
+           /*CALLSCREEN*/
+    
+  .callScreen{
+ 	width: 100vw;
+	 height: 92%;
+	 background-color: white;
+	 position: absolute;
+	 bottom: 0;
+	 display: none;
+} 
+.callScreen h3{
+    margin-top: 10px;
+    margin-left: 1px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .callScreen ul li img{
+     width: 50px;
+	   border-radius: 50%;
+	   margin: 0 10px;
+  }
+   .callScreen .chatName h3{
+	     margin-bottom:10px;
+	     font-weight: 500;
+	   }
+	   .callScreen .chatName #msg{
+	     color: grey;
+	     
+	   }
+	   
+	 .callScreen ul li{
+	   height: 75px;
+	   display: flex;
+	   align-items: center;
+	   position: relative;
+	   }
+	   .calltag{
+	     color: grey;
+	     margin-left: 15px;
+	   }
+	   .callScreen #red{
+	     color: red;
+	     	   }
+ .callScreen #calltime{
+     font-size: 13px;
+	     color: grey;
+	     position: absolute;
+	     right: 20px;
+	     top: 36%;
+	     transform: translateY(-50%);
+	   }
+	   .nm{
+		height: 50px;
+		width: 380px;
+		z-index: 999;
+		position: absolute;
+		bottom: 130px;
+		left: 48%;
+		transform: translateX(-50%);
+	   display: flex;
+	   justify-content: flex-end;
+			 
+	     
+	   }
+	   .nm #callt{
+	    height: 100%;
+		width: 60px;
+		background-color: #1DAA61;
+		box-shadow: -2px 2px 10px 0px #0000003c;
+		border-radius:15px;
+		color: black;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	   }
+	  
+.topBar h1{
+  margin-left: 10px;
+  font-size: 27px;
+}
+.logo{
+  font-size: 20px;
+  margin-right: 10px;
+}
+.logo i{
+  margin-left: 20px;
+}
+
